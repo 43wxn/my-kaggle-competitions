@@ -1,0 +1,6 @@
+competitions/
+digit-recognizer/submissions/
+digit-recognizer/data/
+digit-recognizer/__pycache__/
+digit-recognizer/.ipynb_checkpoints/
+digit-recognizer/src/__pycache__/
