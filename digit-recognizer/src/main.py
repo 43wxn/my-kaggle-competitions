@@ -124,6 +124,6 @@ timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f"cnn_mnist_{timestamp}.csv"
 
 submission.to_csv(f"../submissions/{filename}",index=False)
-print("✅ 预测结果已保存到 ../submissions/cnn_mnist_01.csv")
+print(f"✅ 预测结果已保存到 ../submissions/{filename}")
 
 
